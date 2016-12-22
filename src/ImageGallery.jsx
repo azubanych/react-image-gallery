@@ -38,7 +38,7 @@ function throttle(func, wait) {
 
 const screenChangeEvents = [
   'fullscreenchange',
-  'msfullscreenchange',
+  'MSFullscreenChange',
   'mozfullscreenchange',
   'webkitfullscreenchange'
 ];
